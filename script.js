@@ -4,4 +4,8 @@ function convertirTemperatura() {
     document.getElementById("resultado").innerHTML = celsius + " grados Celsius son equivalentes a " + fahrenheit + " grados Fahrenheit.";
 }
 
-
+function convertirPresion() {
+    var valorPascal = document.getElementById("valorPascal").value;
+    var valorBar = valorPascal / 100000;
+    document.getElementById("resultado2").innerHTML = valorPascal + " pascales son equivalentes a " + valorBar + " Bar.";
+}
